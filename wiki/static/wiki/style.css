@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    position: absolute;
+}
+
+.info-block{
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    width: 35%;
+    height: 50%;
+    z-index: 15;
+
+    border-radius: 2%;
+
+    padding: 1%;
+    background-color: #29354a;
+    color: #fafafa;
+}
+
+hr {
+    position: relative;
+    border: 0;
+    top: 4%;
+    height: 0.1%;
+    background: white;
+    opacity: 0.1;
+}
