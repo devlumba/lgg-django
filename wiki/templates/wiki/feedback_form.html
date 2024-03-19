@@ -1,0 +1,16 @@
+{% extends 'wiki/base.html' %}
+{% load crispy_forms_tags %}
+{% block body %}
+    <div class="feedback_form">
+        <form method="POST" enctype="text/plain">
+        {% csrf_token %}
+        <fieldset>
+            <legend>Написать Отзыв</legend>
+            {{ form|crispy }}
+        </fieldset>
+        <div>
+            <button type="submit">Отправить</button>
+        </div>
+        </form>
+    </div>
+{% endblock body %}

@@ -36,3 +36,11 @@ hr {
     background: white;
     opacity: 0.1;
 }
+
+.about_text {
+    width: 100%;
+    height: 80%;
+
+    overflow:scroll;
+    overflow-x: hidden;
+}
